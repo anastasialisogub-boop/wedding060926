@@ -42,14 +42,42 @@ body{
 
 }
 
-.background span:nth-child(1){left:10%;animation-delay:-2s;}
-.background span:nth-child(2){left:20%;animation-delay:-8s;}
-.background span:nth-child(3){left:35%;animation-delay:-5s;}
-.background span:nth-child(4){left:50%;animation-delay:-11s;}
-.background span:nth-child(5){left:65%;animation-delay:-1s;}
-.background span:nth-child(6){left:78%;animation-delay:-13s;}
-.background span:nth-child(7){left:90%;animation-delay:-6s;}
-.background span:nth-child(8){left:45%;animation-delay:-9s;}
+.background span:nth-child(1)  { left: 5%;  animation-delay: -0.5s; }
+.background span:nth-child(2)  { left: 12%; animation-delay: -1.5s; }
+.background span:nth-child(3)  { left: 18%; animation-delay: -2.5s; }
+.background span:nth-child(4)  { left: 25%; animation-delay: -3.5s; }
+.background span:nth-child(5)  { left: 32%; animation-delay: -4.5s; }
+.background span:nth-child(6)  { left: 40%; animation-delay: -5.5s; }
+.background span:nth-child(7)  { left: 47%; animation-delay: -6.5s; }
+.background span:nth-child(8)  { left: 55%; animation-delay: -7.5s; }
+.background span:nth-child(9)  { left: 62%; animation-delay: -8.5s; }
+.background span:nth-child(10) { left: 69%; animation-delay: -9.5s; }
+.background span:nth-child(11) { left: 75%; animation-delay: -10.5s; }
+.background span:nth-child(12) { left: 82%; animation-delay: -11.5s; }
+.background span:nth-child(13) { left: 88%; animation-delay: -12.5s; }
+.background span:nth-child(14) { left: 94%; animation-delay: -13.5s; }
+.background span:nth-child(15) { left: 52%; animation-delay: -14.5s; }
+.background span:nth-child(16) { left: 36%; animation-delay: -15s; }
+
+.background span:nth-child(3n) {
+    animation-duration: 12s;
+}
+
+.background span:nth-child(3n+1) {
+    animation-duration: 16s;
+}
+
+.background span:nth-child(3n+2) {
+    animation-duration: 20s;
+}
+
+.background span:nth-child(odd) {
+    font-size: 22px;
+}
+
+.background span:nth-child(even) {
+    font-size: 38px;
+}
 
 @keyframes float{
 
