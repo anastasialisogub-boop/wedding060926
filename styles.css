@@ -234,6 +234,84 @@ header h1{
 
 /* ===================== */
 
+.rsvp{
+    width:min(900px,90%);
+    margin:70px auto;
+    text-align:center;
+}
+
+.rsvp h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.rsvp p{
+    font-size:22px;
+    margin-bottom:35px;
+}
+
+.rsvp form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.rsvp input,
+.rsvp select,
+.rsvp textarea{
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:16px;
+
+    font-size:20px;
+
+    font-family:inherit;
+
+    background:white;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    outline:none;
+}
+
+.rsvp textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+.rsvp button{
+
+    padding:20px;
+
+    border:none;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    background:#c78e87;
+
+    color:white;
+
+    font-size:22px;
+
+    transition:.3s;
+}
+
+.rsvp button:hover{
+
+    background:#b17771;
+
+    transform:translateY(-2px);
+}
+
+/* ===================== */
+
 @media(max-width:700px){
 
 header h1{
